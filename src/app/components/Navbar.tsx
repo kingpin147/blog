@@ -9,10 +9,10 @@ export default function Navbar() {
       <div className="prose prose-xl mx-auto flex justify-between flex-col sm:flex-row">
 
         <h1 className="text-3xl font-bold text-white grid place-content-center mb-2 md:mb-0">
-          
+
           <Link
             href="/"
-            className="text-white no-underline hover:text-white/80"
+            className="text-white no-underline hover:text-white/75"
           >
             Kingpin Devops
           </Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <FaInstagram />
           </Link>
           <Link
-            className="text-white/90 hover:text-white"
+            className="text-white/75 hover:text-white"
             href="https://github.com/kingpin147"
             rel="noopener noreferrer"
             target="_blank"

@@ -1,9 +1,9 @@
 import React from 'react';
-import { getSortedPostData } from '../../../lib/posts';
+import { getSortedPostsData } from '../../../lib/posts';
 import ListItem from './listItem';
 
 export default function Posts() {
-  const posts = getSortedPostData();
+  const posts = getSortedPostsData();
 
   return (
     <section className='mt-6 mx-auto max-w-2xl'>
